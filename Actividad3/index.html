@@ -4,26 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/f51499cab0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link  id="estilos" rel="stylesheet" href="styles2.css">
     </head>
 <body>
     <form>
-        <img src="../Actividad3/imagenes/png-clipart-logo-person-user-person-icon-rectangle-photography.png">
-        <input type="text" id="username" name="username" placeholder="Username" ><br>
-        <input type="password" id="password" name="password" placeholder="Password"><br><br>
-        <div>
-            <article id="remember">
-                <input type="checkbox" id="rememberMe">
-                <label for="rememberMe">Remember me</label>
-            </article>
-            
-            <article id="forgot">
-                <input type="checkbox" id="forgotpassw">
-                <label for="forgotpassw">Forgot your password?</label>
-            </article>
-            
-        </div>
-        <button type="submit" >login</button>   
+        <img id="persona" src="../Actividad3/imagenes/png-clipart-logo-person-user-person-icon-rectangle-photography.png" alt="persona">
+        <section id="contenido">
+            <button id="boton" type="button" onclick="cambiarCSS()"> Cambiar el CSS</button>
+            <div id="inputs">
+                <div id="nombre">
+                    <img src="../Actividad3/imagenes/folder-line-icon-isolated-on-white-background-black-flat-thin-icon-on-modern-outline-style-linear-symbol-and-editable-stroke-simple-and-pixel-perfect-stroke-illustration-vector.jpg" alt="carpeta">
+                    <input type="text" id="username" name="username" placeholder="Username" >
+                </div>
+                 <div id="pass">
+                    <img src="../Actividad3/imagenes/images.png" alt="candado">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                 </div>
+            </div>
+            <div id="botones">
+                <div id="remember">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                </div>
+                
+                <div id="forgot">
+                    <input type="checkbox" id="forgotpassw">
+                    <label for="forgotpassw">Forgot your password?</label>
+                </div>
+                
+            </div>
+            <button id="enviar" type="submit" >login</button>
+        </section>
+           
     </form> 
+    <script>
+        function cambiarCSS() {
+          let link = document.getElementById("estilos");
+          link.href = (link.href.includes("styles.css")) ? "styles2.css" : "styles.css";
+        }
+      </script>
 </body>
 </html>

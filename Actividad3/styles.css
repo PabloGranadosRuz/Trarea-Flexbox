@@ -1,4 +1,4 @@
-img {
+img#persona{
     max-width: 37%;
     align-self: center;
     border-radius: 100px;
@@ -9,23 +9,58 @@ form {
     flex-direction: column;
     width: 30%;
     margin: 0 auto;
-    background-color: grey;
+    background-color: rgb(61, 71, 103);
     padding: 20px;
     border-radius: 43px;
     margin-top: 100px;
 }
-div {
+div#botones {
     display: flex;
     justify-content: space-around;
     margin-bottom: 29px;
-    margin-top: -9px;
+    margin-top: 29px;
+    color: white;
 }
-article#forgot {
+div#inputs.img{
+    max-width: 37%;
+}
+div#forgot {
     margin-left: 46px;
 }
-button {
+button#enviar {
     border-radius: 6px;
     width: 32%;
     align-self: center;
     background-color: yellow;
+    padding: 5px;
+    margin-left: 150px;
+}
+div#inputs {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: 6%;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input#username {
+    width: 75%;
+}
+input#password {
+    width: 75%;
+}
+div#nombre {
+    margin-bottom: 20px;
+}
+button#boton {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 11px;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 65px;
 }

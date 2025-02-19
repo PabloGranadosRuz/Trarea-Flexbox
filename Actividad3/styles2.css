@@ -1,0 +1,68 @@
+#nombre > img {
+    width: 20%;
+}
+#pass > img {
+    width: 20%;
+}
+img#persona {
+    width: 243px;
+    border-radius: 100%;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+form {
+    max-width: 45%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(161, 161, 161);
+    padding: 20px;
+    border-radius: 43px;
+    margin-top: 150px;
+}
+input#username {
+    width: 35%;
+    width: 166px;
+    padding-right: 90px;
+}
+input#password {
+    width: 35%;
+    width: 166px;
+    padding-right: 90px;
+}
+div#nombre {
+    display: flex;
+    width: 44%;
+    margin-bottom: 12px;
+}
+div#pass {
+    display: flex;
+    width: 44%;
+    margin-bottom: 12px;
+}
+div#botones {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div#forgot {
+    margin-left: 14px;
+}
+button#enviar {
+    padding: 6px;
+    width: 154px;
+    border-radius: 13px;
+    background-color: yellow;
+    margin-left: 70px
+}
+section#contenido {
+    margin-top: 36px;
+    margin-left: 35px;
+}
+button {
+    width: 67%;
+    margin-bottom: 20px;
+    background-color: orange;
+    border-radius: 9px;
+    padding: 5px;
+    margin-left: 25px;
+}
