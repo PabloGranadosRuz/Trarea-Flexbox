@@ -1,0 +1,31 @@
+img {
+    max-width: 37%;
+    align-self: center;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 43px;
+    margin-top: 100px;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 29px;
+    margin-top: -9px;
+}
+article#forgot {
+    margin-left: 46px;
+}
+button {
+    border-radius: 6px;
+    width: 32%;
+    align-self: center;
+    background-color: yellow;
+}
